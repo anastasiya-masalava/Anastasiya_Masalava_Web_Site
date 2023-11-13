@@ -47,7 +47,7 @@ export const experiences = [
     title: "Senior Teaching Assistant | CS 2110",
     company:  <strong>Georgia Institute of Technology</strong>,
     duration: "January 2023 - Present",
-    description: "Supervise a team of 3 Teaching Assistants, create course content, teach labs for 50 students on the topics of Computer Organization and Programming (CS 2110) course.",
+    description: "Supervise a team of 3 Teaching Assistants, create course content, teach labs for 50 students on the topics of Computer Organization and Programming (CS 2110).",
   },
   {
     title: "Software Engineer Intern",

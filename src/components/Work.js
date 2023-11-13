@@ -18,10 +18,10 @@ export default function Work() {
         </div>
         <div className="flex flex-wrap -m-4">
           {experiences.map((experience, index) => (
-            <div key={index} className="p-4 lg:w-1/2" style={{ height: "270px" }}>
-              <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
-                <BriefcaseIcon className="w-8 h-8 text-purple-500 mr-4" />
-                <div className="flex-grow pl-6">
+            <div key={index} className="p-4 lg:w-1/2" style={{ height: "270px" } }>
+              <div className="flex flex-grow pl-6 border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col h-full">
+              <BriefcaseIcon className="w-8 h-8 text-purple-500 mr-4" />
+              <div className="flex-grow pl-6">
                   <h1 className="text-grey-900 text-lg title-font font-medium mb-2">{experience.title}</h1>
                   <p className="leading-relaxed text-purple-900">{experience.company}</p>
                   <p className="leading-relaxed text-base">{experience.duration}</p>
