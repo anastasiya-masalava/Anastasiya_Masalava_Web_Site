@@ -45,24 +45,28 @@ export const testimonials = [
 export const experiences = [
   {
     title: "Senior Teaching Assistant | CS 2110",
+    companyLink: "https://www.gatech.edu",
     company:  <strong>Georgia Institute of Technology</strong>,
     duration: "January 2023 - Present",
     description: "Supervise a team of 3 Teaching Assistants, create course content, teach labs for 50 students on the topics of Computer Organization and Programming (CS 2110).",
   },
   {
     title: "Software Engineer Intern",
+    companyLink: "https://www.amazon.com",
     company: <strong>Amazon</strong>,
     duration: "May 2023 - July 2023",
     description: "Created an image classification Machine Learning model, utilized hyperparameter tuning and data augmentation for model improvements.",
   },
   {
     title: "Teaching Assistant | CS 1301",
+    companyLink: "https://www.gatech.edu",
     company: <strong>Georgia Institute of Technology</strong>,
     duration: "January 2022 - December 2022",
     description: "Taught recitations for 50 students on topics such as syntax of Python, recursion, Big-O, sorting and searching algorithms, lead office hours, and created course content.",
   },
   {
     title: "Software Engineer Intern",
+    companyLink: "https://www.steelcase.com",
     company: <strong>Steelcase</strong>,
     duration: "May 2022 - July 2022",
     description: "Developed a Flask web application that generates reports of surface materials and a console application that creates availability matrices of surface materials.",
