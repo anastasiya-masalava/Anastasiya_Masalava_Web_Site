@@ -4,7 +4,8 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import Work from "./components/Work";
+import Recommendations from "./components/Recommendations";
 
 
 export default function Main() {
@@ -13,8 +14,9 @@ export default function Main() {
       <Navbar />
       <About />
       <Projects />
+      <Work/>
       <Skills />
-      <Testimonials />
+      <Recommendations />
       <Contact />  
     </main>
   );

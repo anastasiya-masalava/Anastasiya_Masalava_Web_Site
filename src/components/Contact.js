@@ -35,26 +35,25 @@ export default function Contact() {
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=930+Spring+Street+Northwest,+Atlanta,+GA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=801+Atlantic+Dr+NW,+Atlanta,+GA+30332,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+              <h2 className="title-font font-semibold text-white text-l">
+                Contact information:
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                masnas2004@gmail.com
+              <a href="mailto:masnas2004@gmail.com" class="text-purple-400 leading-relaxed" target="_blank">
+                Gmail
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              <br/>
+              <a href="https://www.linkedin.com/in/anastasiyamasalava/" class="text-purple-400 leading-relaxed" target="_blank">
                 LinkedIn
-              </h2>
-              <a href="https://www.linkedin.com/in/anastasiyamasalava/" class="text-indigo-400 leading-relaxed" target="_blank">
-                Anastasiya Masalava
+              </a>
+              <br/>
+              <a href="https://github.com/anastasiya-masalava" class="text-purple-400 leading-relaxed" target="_blank">
+                GitHub
               </a>
             </div>
           </div>
@@ -64,12 +63,12 @@ export default function Contact() {
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+          <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
+            Contact Me
           </h2>
+          <br/>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Thank you for your interest in contacting me. I am always happy to meet new people and discuss professional opportunities. Please, send me your message and I will reach out to you soon!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -110,7 +109,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
         </form>

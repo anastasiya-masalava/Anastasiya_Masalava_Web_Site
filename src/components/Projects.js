@@ -14,7 +14,7 @@ export default function Projects() {
             My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          I enjoy learning outside the classroom and applying my skills in practice. These are my favorite projects I have built in the past.
+          I enjoy learning outside the classroom and applying my skills in practice. These are my favorite projects I have built in the recent past.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

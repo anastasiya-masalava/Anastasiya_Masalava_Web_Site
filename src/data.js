@@ -22,31 +22,50 @@ export const projects = [
       "An Android application that has the functionality of a famous Crossy Road game. In the game, you need to reach the end by overcoming obstacles.",
     image: "./cross_road.gif",
     link: "https://github.gatech.edu/cs2340-group27/app-crossyroad-1.0",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+  }
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
   {
     quote:
       "Anastasiya has worked as an intern at Steelcase for the summer of 2022 on my team, providing a high level of support and quick learning to a very complex area of our company. She provided creative solutions that were able to leverage new technology and integrate into our systems. Her attitude and likeable personality have been refreshing and provided a significant boost to our productivity this summer. I'd highly recommend her.",
     image: "/steve_silvey.jpeg",
     name: "Steve Silvey",
     company: "Steelcase",
+  },
+  {
+    quote:
+      "I have had the pleasure to intern with Anastasiya over the course of this summer during our time together at Steelcase, and she has been nothing short of a great person, great colleague, and great friend. Anastasiya has a technological wit and desire to learn more. She always challenges the status quo and is never afraid to ask questions or try new things. She was inserted into our team and given projects and challenges she hadn't been exposed to before, and became an expert.",
+    image: "/josh.png",
+    name: "Joshua Mohanroy",
+    company: "Steelcase",
+  }
+];
+
+export const experiences = [
+  {
+    title: "Senior Teaching Assistant | CS 2110",
+    company:  <strong>Georgia Institute of Technology</strong>,
+    duration: "January 2023 - Present",
+    description: "Supervise a team of 3 Teaching Assistants, create course content, teach labs for 50 students on the topics of Computer Organization and Programming (CS 2110) course.",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: <strong>Amazon</strong>,
+    duration: "May 2023 - July 2023",
+    description: "Created an image classification Machine Learning model, utilized hyperparameter tuning and data augmentation for model improvements.",
+  },
+  {
+    title: "Teaching Assistant | CS 1301",
+    company: <strong>Georgia Institute of Technology</strong>,
+    duration: "January 2022 - December 2022",
+    description: "Taught recitations for 50 students on topics such as syntax of Python, recursion, Big-O, sorting and searching algorithms, lead office hours, and created course content.",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: <strong>Steelcase</strong>,
+    duration: "May 2022 - July 2022",
+    description: "Developed a Flask web application that generates reports of surface materials and a console application that creates availability matrices of surface materials.",
   },
 ];
 

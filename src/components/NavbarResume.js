@@ -14,13 +14,16 @@ export default function NavbarResume() {
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="/#projects" className="mr-5 text-white">
-            My Projects
+            Projects
+          </a>
+          <a href="/#work" className="mr-5 text-white">
+            Work Experience
           </a>
           <a href="/#skills" className="mr-5 text-white">
             Skills
           </a>
-          <a href="/#testimonials" className="mr-5 text-white">
-            Testimonials
+          <a href="/#recommendations" className="mr-5 text-white">
+            Recommendations
           </a>
           <a href="/resume" path="/resume" className="mr-5 text-white">
             Resume
