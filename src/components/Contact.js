@@ -125,9 +125,39 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        <br/>
+        <div style={styles.bottomContainer}>
+        <div style={styles.madeWithLove}>
+          Made with <span role="img" aria-label="heart">❤️</span> by{" "}
+          <span style={styles.boldText}>Anastasiya </span> | 2023
+        </div>
       </div>
-    </section>
-    
+      </div>
+    </section> 
   );
-  
 }
+const styles = {
+  container: {
+    position: "relative",
+  },
+  bottomContainer: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    position: "absolute",
+    bottom: 0,
+    width: "100%",
+    padding: "10px",
+  },
+  madeWithLove: {
+    marginTop: "20px",
+    fontSize: "1rem",
+    color: "gray",
+    fontStyle: "italic",
+    textAlign: "center"
+  },
+  boldText: {
+    fontWeight: "bold", // Make the text bold
+  }
+};

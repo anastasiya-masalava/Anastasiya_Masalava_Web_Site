@@ -13,8 +13,23 @@ const Resume = () => {
       <div className="center-iframe">
         <iframe src="https://drive.google.com/file/d/1mKZscvkcaYH8RQYP4ZGTVAAzQT3AXUzV/preview" width="600" height="720px" allow="autoplay"></iframe>
       </div>
+      <div style={styles.madeWithLove}>
+        Made with <span role="img" aria-label="heart">❤️</span> by <span style={styles.boldText}>Anastasiya </span> | 2023
+      </div>
     </div>
     );
   };
-  
+
+  const styles = {
+    madeWithLove: {
+      marginTop: "20px",
+      fontSize: "1rem",
+      color: "gray",
+      fontStyle: "italic",
+      textAlign: "center"
+    },
+    boldText: {
+      fontWeight: "bold", // Make the text bold
+    }
+  };
 export default Resume;
