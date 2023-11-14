@@ -48,7 +48,7 @@ export const experiences = [
     companyLink: "https://www.gatech.edu",
     company:  <strong>Georgia Institute of Technology</strong>,
     duration: "January 2023 - Present",
-    description: "Supervise a team of 3 Teaching Assistants, create course content, teach labs for 50 students on the topics of Computer Organization and Programming (CS 2110).",
+    description: "Supervise a team of 3 Teaching Assistants, create course content, and teach labs for 50 students on the topics of Computer Organization and Programming.",
   },
   {
     title: "Software Engineer Intern",
@@ -62,7 +62,7 @@ export const experiences = [
     companyLink: "https://www.gatech.edu",
     company: <strong>Georgia Institute of Technology</strong>,
     duration: "January 2022 - December 2022",
-    description: "Taught recitations for 50 students on topics such as syntax of Python, recursion, Big-O, sorting and searching algorithms, lead office hours, and created course content.",
+    description: "Taught recitations for 50 students on topics such as the syntax of Python, recursion, Big-O, sorting and searching algorithms, led office hours, and created course content.",
   },
   {
     title: "Software Engineer Intern",

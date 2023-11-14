@@ -76,9 +76,7 @@ export default function Contact() {
           </h2>
           <br />
           <p className="leading-relaxed mb-5">
-            Thank you for your interest in contacting me. I am always happy to
-            meet new people and discuss professional opportunities. Please, send
-            me your message and I will reach out to you soon!
+          Thank you for your interest in contacting me. I am always happy to meet new people and discuss professional opportunities. Send me your message, and I will follow up soon!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
