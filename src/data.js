@@ -21,7 +21,7 @@ export const projects = [
     description:
       "An Android application that has the functionality of a famous Crossy Road game. In the game, you need to reach the end by overcoming obstacles.",
     image: "./cross_road.gif",
-    link: "https://github.gatech.edu/cs2340-group27/app-crossyroad-1.0",
+    link: "https://github.com/anastasiya-masalava/Crossy_Road.git",
   }
 ];
 
