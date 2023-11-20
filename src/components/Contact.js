@@ -64,6 +64,10 @@ export default function Contact() {
               <a href="https://github.com/anastasiya-masalava" class="text-purple-400 leading-relaxed" target="_blank">
                 GitHub
               </a>
+              <br/>
+              <a href="https://www.youtube.com/@anastasiya_masalava5460" class="text-purple-400 leading-relaxed" target="_blank">
+                YouTube
+              </a>
             </div>
           </div>
         </div>
@@ -123,14 +127,13 @@ export default function Contact() {
             Submit
           </button>
         </form>
-        <br/>
-        <div style={styles.bottomContainer}>
-        <div style={styles.madeWithLove}>
-          Made with <span role="img" aria-label="heart">❤️</span> by{" "}
-          <span style={styles.boldText}>Anastasiya </span> | 2023
+      </div>
+      <div style={styles.bottomContainer}>
+          <div style={styles.madeWithLove}>
+            Made with <span role="img" aria-label="heart">❤️</span> by{" "}
+            <span style={styles.boldText}>Anastasiya </span> | 2023
+          </div>
         </div>
-      </div>
-      </div>
     </section> 
   );
 }
@@ -139,14 +142,14 @@ const styles = {
     position: "relative",
   },
   bottomContainer: {
+    flex: 1,
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    position: "absolute",
-    bottom: 0,
     width: "100%",
     padding: "10px",
+    marginTop: "0px", // Adjust the margin-top for spacing
   },
   madeWithLove: {
     marginTop: "20px",

@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 .center-iframe {
-margin-top: 2%;
-justify-content: center; 
-align-items: center; 
-display: flex;
+    margin-top: 2%;
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
 }
 
+body, html, #root {
+    margin: 0;
+    padding: 0;
+} 
+
+main {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}

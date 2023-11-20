@@ -1,4 +1,3 @@
-import { BriefcaseIcon } from "@heroicons/react/solid";
 import React from "react";
 import { experiences } from "../data";
 
@@ -7,7 +6,6 @@ export default function Work() {
     <section id="work">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <BriefcaseIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
             Work Experience
           </h1>
@@ -20,7 +18,11 @@ export default function Work() {
             <div key={index} className="p-4 lg:w-1/2 md:w-full">
               <div className="flex flex-col h-full border-2 rounded-lg border-gray-200 border-opacity-50 p-8">
                 <div className="flex items-center mb-4">
-                  <BriefcaseIcon className="w-6 h-6 text-purple-500 mr-3" />
+                  <img
+                    src={experience.logoUrl}
+                    alt={`Logo for ${experience.company}`}
+                    className="w-14 h-14 rounded-full mr-3"
+                  />
                   <h1 className="text-grey-900 text-lg title-font font-medium mb-2">{experience.title}</h1>
                 </div>
                 <a href={experience.companyLink} target="_blank" rel="noopener noreferrer" className="leading-relaxed text-purple-900">{experience.company}</a>

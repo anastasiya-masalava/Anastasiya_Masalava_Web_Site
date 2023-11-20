@@ -25,6 +25,9 @@ export default function Navbar() {
           <a href="#recommendations" className="mr-5 text-white">
             Recommendations
           </a>
+          <a href="#spotlights" className="mr-5 text-white">
+            Spotlights
+          </a>
           <a href="/resume" path="/resume" className="mr-5 text-white">
             Resume
           </a>

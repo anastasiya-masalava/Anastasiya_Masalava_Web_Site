@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Recommendations from "./components/Recommendations";
+import Spotlights from "./components/Podcast";
 
 
 export default function Main() {
@@ -16,7 +17,8 @@ export default function Main() {
       <Projects />
       <Work/>
       <Skills />
-      <Recommendations />
+      <Recommendations/>
+      <Spotlights/>
       <Contact />  
     </main>
   );
