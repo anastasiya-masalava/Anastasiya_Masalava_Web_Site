@@ -78,7 +78,7 @@ export const experiences = [
 ];
 export const podcastEpisode = {
   id: 1,
-  title: "Episode 1: Introduction to the Podcast",
+  title: "My interview for the Steelcase Intern Podcast",
   description: "In this episode, we introduce the podcast and discuss...",
   embedCode:
     '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/60CkGWu1xqBi76wjN6lige?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
