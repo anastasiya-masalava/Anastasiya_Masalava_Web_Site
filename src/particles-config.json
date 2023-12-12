@@ -1,0 +1,33 @@
+{
+    "particles": {
+        "number": {
+            "value": 35,
+            "density": {
+                "enable": true,
+                "value_area": 600
+            }
+        },
+        "color": {
+            "value": [
+                "#E6DBD0",
+                "#C9ADA1",
+                "#754F5B"
+            ]
+        },
+        "shape": {
+            "type": "circle",
+            "polygon": {
+                "nb_sides": 6
+            }
+        },
+        "line": {
+            "enable": true,
+            "color": "#black",
+            "opacity": 1,
+            "width": 4
+        },
+        "line_linked": {
+            "color": "#000000"
+        }
+    }
+}
