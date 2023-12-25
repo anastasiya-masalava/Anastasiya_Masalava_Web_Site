@@ -1,23 +1,8 @@
 import React, { useEffect } from "react";
-import particlesConfig from "../particles-config.json";
 
 export default function About() {
-  useEffect(() => {
-    window.particlesJS("particles-js", {
-
-      ...particlesConfig,
-      particles: {
-
-        ...particlesConfig.particles,
-        size: {
-          value: 5,
-        },
-      },
-    });
-  }, []);
   return (
     <section id="about" className="relative">
-      <div id="particles-js"></div>
       <div className="content-wrapper relative z-1">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
